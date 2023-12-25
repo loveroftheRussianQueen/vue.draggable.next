@@ -1480,9 +1480,9 @@
     "@types/node" "*"
 
 "@types/sortablejs@^1.10.7":
-  version "1.15.7"
-  resolved "https://registry.yarnpkg.com/@types/sortablejs/-/sortablejs-1.15.7.tgz#11f85e98fce2854708e5c6d6011f7a236d79ae9f"
-  integrity sha512-PvgWCx1Lbgm88FdQ6S7OGvLIjWS66mudKPlfdrWil0TjsO5zmoZmzoKiiwRShs1dwPgrlkr0N4ewuy0/+QUXYQ==
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/@types/sortablejs/-/sortablejs-1.10.7.tgz#ab9039c85429f0516955ec6dbc0bb20139417b15"
+  integrity sha512-lGCwwgpj8zW/ZmaueoPVSP7nnc9t8VqVWXS+ASX3eoUUENmiazv0rlXyTRludXzuX9ALjPsMqBu85TgJNWbTOg==
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -1961,9 +1961,9 @@
   integrity sha512-g+4pzAw7PYSjARtLBoDq6DmcblX8i9KJHSCnyM5VDDFFifUaUT9iHbFpOF/KOizQ9f7QAqU2JH3Y6aXjzUMhVA==
 
 "@vue/test-utils@^2.0.0-beta.6":
-  version "2.0.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.0.0-rc.6.tgz#d0aac24d20450d379e183f70542c0822670b8783"
-  integrity sha512-0cnQBVH589PwgqWpyv1fgCAz+9Ram/MsvN3ZEAEVXi1aPuhUa22EudGc0WezQ9PKwR+L40NrBmt3JBXE2tSRRQ==
+  version "2.0.0-rc.16"
+  resolved "https://registry.yarnpkg.com/@vue/test-utils/-/test-utils-2.0.0-rc.16.tgz#59380f02870f856ac002a29c02681d3f3fcbafeb"
+  integrity sha512-TubikDVkI2LuRKRPSLv3lYpbpvvucT2DIcGqfBVpvYs4W19u0EBTJEdmfwmSuLY7H1TyAr9Stur3PI1sWWvTGQ==
 
 "@vue/web-component-wrapper@^1.2.0":
   version "1.2.0"
@@ -3074,15 +3074,10 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001135:
-  version "1.0.30001148"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001148.tgz#dc97c7ed918ab33bf8706ddd5e387287e015d637"
-  integrity sha512-E66qcd0KMKZHNJQt9hiLZGE3J4zuTqE1OnU53miEVtylFbwOEmeA5OsRu90noZful+XGSQOni1aT2tiqu/9yYw==
-
-caniuse-lite@^1.0.30001219:
-  version "1.0.30001236"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001236.tgz#0a80de4cdf62e1770bb46a30d884fc8d633e3958"
-  integrity sha512-o0PRQSrSCGJKCPZcgMzl5fUaj5xHe8qA2m4QRvnyY4e1lITqoNkr7q/Oh1NcpGSy0Th97UZ35yoKcINPoq7YOQ==
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001135, caniuse-lite@^1.0.30001219:
+  version "1.0.30001331"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001331.tgz"
+  integrity sha512-Y1xk6paHpUXKP/P6YjQv1xqyTbgAP05ycHBcRdQjTcyXlWol868sJJPlmk5ylOekw2BrucWes5jk+LvVd7WZ5Q==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -9380,10 +9375,10 @@ sort-keys@^1.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
-sortablejs@1.14.0:
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.14.0.tgz#6d2e17ccbdb25f464734df621d4f35d4ab35b3d8"
-  integrity sha512-pBXvQCs5/33fdN1/39pPL0NZF20LeRbLQ5jtnheIPN9JQAaufGjKdWduZn4U7wCtVuzKhmRkI0DFYHYRbB2H1w==
+sortablejs@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.15.0.tgz#53230b8aa3502bb77a29e2005808ffdb4a5f7e2a"
+  integrity sha512-bv9qgVMjUMf89wAvM6AxVvS/4MX3sPeN0+agqShejLU5z5GX4C75ow1O2e5k4L6XItUyAK3gH6AxSbXrOM5e8w==
 
 source-list-map@^2.0.0:
   version "2.0.1"
@@ -10125,9 +10120,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 typescript@^4.3.5:
-  version "4.9.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
-  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
+  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
 
 uglify-js@3.4.x:
   version "3.4.10"
